@@ -1,5 +1,5 @@
 //program to find the factors of a number
-#include<iostream>
+include<iostream>
 using namespace std;
 
 int main() 
