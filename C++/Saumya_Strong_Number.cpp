@@ -1,11 +1,11 @@
 
-#include<iostream>
+include<iostream>
 using namespace std;
 
 int main()
 {
 	int n,sum=0;
-	cout<<"Enter number to check: ";
+	cout<<"Enter a number by user : ";
 	cin>>n;
 	int n1=n;
 	while(n1)
@@ -21,11 +21,11 @@ int main()
 	}
  	if(sum==n )
 	{
-		cout<<n<<" is a Strong Number";
+		cout<<n<<"This is a Strong Number";
 	}
 	else
 	{
-		cout<<n<<" is not a Strong Number";
+		cout<<n<<" This  is not a Strong Number";
 	}
  
 	return 0;
