@@ -1,9 +1,9 @@
-#include<bits/stdc++.h>
+include<iostream>
 using namespace std;
 
 int main(){
 int n;
-cout<<"ENter number of people"<<endl;
+cout<<"Enter the number of people by user  "<<endl;
 cin>>n;
 int max=((n-1)*n)/2;
 //((N-1)*N)/2 is the number of handhsakes 
