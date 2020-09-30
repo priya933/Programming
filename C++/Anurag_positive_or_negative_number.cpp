@@ -1,4 +1,4 @@
-#include <iostream>
+include <iostream>
 using namespace std;
 
 int main()
@@ -7,10 +7,10 @@ int main()
     cin >> n;
     if (n < 0)
     {
-        cout << n << " is a negative number." << endl;
+        cout << n << "This is a negative number." << endl;
     }
     else
     {
-        cout << n << " is a positive number." << endl;
+        cout << n << " This is a positive number." << endl;
     }
 }
